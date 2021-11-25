@@ -1,0 +1,176 @@
+body{
+
+  Background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://cuonggym.com/wp-content/uploads/2019/03/thiet-ke-3D-setup-phong-tap-Gym-Victory-Fitness-HNI-02.jpg);
+
+  Background-position: center center;
+
+-webkit-background-size: cover;
+
+  Background-size: cover;
+
+  Height: 100vh;
+
+}
+
+Body{
+
+  Margin: 0;
+
+  Padding: 0;
+
+}
+
+Header{
+
+  Padding: 15px 60px;
+
+}
+
+.menu{
+
+  Width: 42%;
+
+  Float: right;
+
+  List-style: none;
+
+}
+
+.menu li{
+
+  Width: 100px;
+
+  Height: 50px;
+
+  Line-height: 50px;
+
+  Text-align: center;
+
+  Color: #fff;
+
+  Font-style: 13px;
+
+  Float: left
+
+}
+
+.menu li:hover{
+
+  Background: yellow;
+
+}
+
+.menu li:hover a{
+
+  Color: #000;
+
+} 
+
+.menu li a{
+
+  Text-decoration: none;
+
+  Color: white;
+
+  Text-transform: uppercase;
+
+  Font-weight: bold;
+
+  Font-size: 15px;
+
+  Font-family: ‘Times New Roman’, Times, serif;
+
+}
+
+.logo{
+
+  Text-decoration: none;
+
+  Color: greenyellow;
+
+  Font-size: 30px;
+
+  Padding: 20px 0;
+
+  Width: 20%;
+
+  Float: left;
+
+  Font-weight: bold;
+
+  Font-family: ‘Times New Roman’, Times, serif;
+
+}
+
+.text{
+
+  Position: absolute;
+
+  Top: 50%;
+
+  Left: 50%;
+
+  Transform: translate(-50%,-50%);
+
+  Color: #fff;
+
+  Text-align: center;
+
+}
+
+.text h2{
+
+  Font-family: ‘Times New Roman’, Times, serif;
+
+  Margin: 0;
+
+  Font-size: 55px;
+
+  Color: white;
+
+}
+
+.text p{
+
+  Font-size: 30px;
+
+  Margin: 0;
+
+  Font-weight: bold;
+
+  Color: red;
+
+  Font-family: ‘Times New Roman’, Times, serif;
+
+}
+
+.text a{
+
+  Text-decoration: none;
+
+  Border: 1px solid #fff;
+
+  Font-size: 17px;
+
+  Padding: 10px 35px;
+
+  Color: #fff;
+
+  Display: inline-block;
+
+  Margin-top: 5%;
+
+  Text-transform: uppercase;
+
+}
+
+.text a:hover{
+
+  Border-color: greenyellow;
+
+  Background-color: greenyellow;
+
+  Transition: .8s;
+
+  Color: #262626
+}
